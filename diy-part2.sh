@@ -31,9 +31,9 @@ git clone https://github.com/sirpdboy/luci-app-netdata.git package/luci-app-netd
 #添加额外非必须软件包
 git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/luci-app-adguardhome
 git clone https://github.com/vernesong/OpenClash.git package/OpenClash
-git clone https://github.com/mwarning/zerotier-openwrt.git
-cp -rf zerotier-openwrt/zerotier package/
-rm -rf zerotier-openwrt/
+#git clone https://github.com/mwarning/zerotier-openwrt.git
+#cp -rf zerotier-openwrt/zerotier package/
+#rm -rf zerotier-openwrt/
 
 
 
