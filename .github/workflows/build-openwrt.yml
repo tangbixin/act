@@ -21,7 +21,7 @@ on:
 
 env:
   # REPO_URL: https://github.com/robimarko/openwrt
-  REPO_URL: https://github.com/xiangfeidexiaohuo/openwrt-ipq807x
+  REPO_URL: https://github.com/tangbixin/openwrt-ipq807x
   REPO_BRANCH: ipq807x-5.15
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: ae86ax6.config
