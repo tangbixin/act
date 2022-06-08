@@ -23,7 +23,7 @@ env:
   REPO_URL: https://github.com/openwrt/openwrt
   REPO_BRANCH: v21.02.3
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: ax6.config
+  CONFIG_FILE: kidd-ax6.config
   DIY_P1_SH: diy.sh
 
   UPLOAD_BIN_DIR: false
