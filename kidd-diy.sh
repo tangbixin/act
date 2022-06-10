@@ -2,6 +2,7 @@
 shopt -s extglob
 
 SHELL_FOLDER=$(dirname $(readlink -f "$0"))
+echo $SHELL_FOLDER
 bash $SHELL_FOLDER/../common/kernel_5.15.sh
 
 rm -rf package/boot/uboot-envtools package/firmware/ipq-wifi package/firmware/ath11k* package/qca package/qat
