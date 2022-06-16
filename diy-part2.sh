@@ -35,12 +35,12 @@ git clone https://github.com/sirpdboy/luci-app-netdata.git package/luci-app-netd
 
 
 svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-zerotier package/luci-app-zerotier
-git clone https://github.com/vernesong/OpenClash.git package/OpenClash
+# git clone https://github.com/vernesong/OpenClash.git package/OpenClash
 svn co https://github.com/vernesong/OpenClash/trunk/luci-app-openclash package/luci-app-openclash
 # 编译 po2lmo (如果有po2lmo可跳过)
-pushd package/luci-app-openclash/tools/po2lmo
-make && sudo make install
-popd
+#pushd package/luci-app-openclash/tools/po2lmo
+#make && sudo make install
+#popd
 
 
 
