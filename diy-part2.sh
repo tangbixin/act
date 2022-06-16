@@ -31,12 +31,13 @@ git clone https://github.com/sirpdboy/luci-app-netdata.git package/luci-app-netd
 #添加额外非必须软件包
 #去广告插件adguardhome
 #   git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/luci-app-adguardhome
-# git clone https://github.com/vernesong/OpenClash.git package/OpenClash
-# svn co https://github.com/vernesong/OpenClash/trunk/luci-app-openclash package/luci-app-openclash
+
+git clone https://github.com/vernesong/OpenClash.git package/OpenClash
+svn co https://github.com/vernesong/OpenClash/trunk/luci-app-openclash package/luci-app-openclash
 # 编译 po2lmo (如果有po2lmo可跳过)
-# pushd package/luci-app-openclash/tools/po2lmo
-# make && sudo make install
-# popd
+pushd package/luci-app-openclash/tools/po2lmo
+make && sudo make install
+popd
 
 
 
