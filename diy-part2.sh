@@ -32,6 +32,9 @@ git clone https://github.com/sirpdboy/luci-app-netdata.git package/luci-app-netd
 #去广告插件adguardhome
 #   git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/luci-app-adguardhome
 
+
+
+svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-zerotier package/luci-app-zerotier
 git clone https://github.com/vernesong/OpenClash.git package/OpenClash
 svn co https://github.com/vernesong/OpenClash/trunk/luci-app-openclash package/luci-app-openclash
 # 编译 po2lmo (如果有po2lmo可跳过)
