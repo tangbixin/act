@@ -20,6 +20,7 @@
 #svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-zerotier feeds/luci/applications/luci-app-zerotier
 #svn co https://github.com/coolsnowwolf/packages/trunk/net/zerotier feeds/packages/net/zerotier
 
+echo 'src-git kidd https://github.com/kiddin9/openwrt-packages' >>feeds.conf.default
 
 #echo 'src-git zerotier https://github.com/mwarning/zerotier-openwrt.git' >>feeds.conf.default
 #echo 'src-git zerotier https://github.com/rufengsuixing/luci-app-zerotier' >>feeds.conf.default
