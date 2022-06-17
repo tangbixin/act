@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Build 5.15-DEV-AX6
+name: Build 5.15-robi-AX6
 
 on:
   repository_dispatch:
