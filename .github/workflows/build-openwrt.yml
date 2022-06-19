@@ -20,15 +20,13 @@ on:
         default: 'false'
 
 env:
-  #REPO_URL: https://github.com/robimarko/openwrt
-  #REPO_BRANCH: ipq807x-5.15-pr-dynalink
-  REPO_URL: https://github.com/xiangfeidexiaohuo/openwrt-ipq807x
-  REPO_BRANCH: 515-stable
+  REPO_URL: https://github.com/robimarko/openwrt
+  REPO_BRANCH: ipq807x-5.15-pr-dynalink
+
   
   
   
   FEEDS_CONF: feeds.conf.default
-  #  CONFIG_FILE: ax6.config
   CONFIG_FILE: ax6-base.config
   DIY_P1_SH: diy-part1.sh
   DIY_P2_SH: diy-part2.sh
